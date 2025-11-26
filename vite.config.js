@@ -6,6 +6,7 @@ export default defineConfig({
   // Або, якщо у вас репозиторій "my-awesome-project", тоді:
   // base: '/my-awesome-project/',
   build: {
+    base: '/alfa4c/', // Або /назва-вашого-репозиторію/
     outDir: 'dist', // Це папка, куди Vite збере збірку
   },
   // Якщо у вас є інші налаштування Vite, додайте їх сюди
